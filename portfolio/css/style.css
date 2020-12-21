@@ -8,10 +8,30 @@ body{
 }
 
 .header{
-    padding: 60px;
+    width: 100%;
+    display: flex;
     background-color: #333;
     color: white;
-    text-align: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    margin-top: 249px;
+}
+
+.header img{
+    width: 100%;
+    max-width: 200px;
+}
+
+.header-title{
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .navbar{
@@ -32,15 +52,18 @@ body{
 }
 
 .row{
+    background-color: #434544;
     display: flex;
 }
 
 .side{
+    color: white;
     flex: 30%;
     padding: 20px;
 }
 
 .main{
+    color: white;
     flex: 70%;
     padding: 20px;
 }
