@@ -84,7 +84,21 @@ body{
 }
 
 @media screen and (max-width: 700px){
+
+    .header{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header-title{
+        text-align: center;
+    }
+
     .row, .navbar{
         flex-direction: column;
+    }
+
+    .container{
+        margin-top: 379px;
     }
 }

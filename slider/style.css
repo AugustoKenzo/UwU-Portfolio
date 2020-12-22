@@ -1,0 +1,40 @@
+@font-face { font-family: 'Cassete'; src: url('fonts/Catcafe-v5yM.ttf'); } 
+
+
+
+.logo{
+    font-family: Cassete;
+    font-size: 30px;
+}
+
+.navbar-dark, .bg-dark{
+    background-color: #333 !important;
+}
+
+
+.wrapper{
+    background-color: #333;
+    height: 600px;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper .container{
+    display: flex;
+    justify-content: center;
+}
+
+.relato{
+    padding: 20px;
+}
+
+.fake-img{
+    padding: 20px;
+    background-color: #bbb;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+}
